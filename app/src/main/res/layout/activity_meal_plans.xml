@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealPlansActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5900B0FF"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="4"
+            android:background="@color/transparent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:weightSum="7">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="-5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="704dp"
+                            android:layout_height="62dp"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <RadioGroup
+                                android:id="@+id/filters"
+                                android:layout_width="700dp"
+                                android:layout_height="38dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:checkedButton="@+id/offer"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/startedPlans"
+                                    android:layout_width="20dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/radio_buton"
+                                    android:button="@null"
+                                    android:gravity="center"
+                                    android:text="Started Plans"
+                                    android:textColor="#FFFFFF" />
+
+                                <RadioButton
+                                    android:id="@+id/all"
+                                    android:layout_width="20dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginRight="12dp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/radio_buton"
+                                    android:button="@null"
+                                    android:gravity="center"
+                                    android:text="All"
+                                    android:textColor="#FFFFFF" />
+
+                                <RadioButton
+                                    android:id="@+id/lowCarbs"
+                                    android:layout_width="20dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginRight="12dp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/radio_buton"
+                                    android:button="@null"
+                                    android:gravity="center"
+                                    android:text="Low Carbs"
+                                    android:textColor="#FFFFFF" />
+
+                                <RadioButton
+                                    android:id="@+id/highProtein"
+                                    android:layout_width="20dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginRight="12dp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/radio_buton"
+                                    android:button="@null"
+                                    android:gravity="center"
+                                    android:text="High Protein"
+                                    android:textColor="#FFFFFF" />
+
+                                <RadioButton
+                                    android:id="@+id/plantBased"
+                                    android:layout_width="20dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/radio_buton"
+                                    android:button="@null"
+                                    android:gravity="center"
+                                    android:text="Plant based"
+                                    android:textColor="@color/white" />
+
+                                <RadioButton
+                                    android:id="@+id/muscleGrowth"
+                                    android:layout_width="20dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/radio_buton"
+                                    android:button="@null"
+                                    android:gravity="center"
+                                    android:text="Muscle growth"
+                                    android:textColor="#FFFFFF" />
+
+                                <RadioButton
+                                    android:id="@+id/favorities"
+                                    android:layout_width="20dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/radio_buton"
+                                    android:button="@null"
+                                    android:gravity="center"
+                                    android:text="Favorities"
+                                    android:textColor="#FFFFFF" />
+                            </RadioGroup>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.8">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Activity plans"
+                    android:textColor="#F8F5F5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <ListView
+                    android:id="@+id/lv_mealPlans"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <com.google.android.material.bottomappbar.BottomAppBar
+                    android:id="@+id/bottomAppBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+
+                    android:visibility="invisible" />
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+
+                    app:layout_anchor="@+id/bottomAppBar"
+                    app:layout_anchorGravity="bottom|center"
+                    app:menu="@menu/bottom_menu" />
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

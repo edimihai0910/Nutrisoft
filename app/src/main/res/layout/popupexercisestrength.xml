@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_noOfSets"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/bt_addExercise"
+            android:layout_width="225dp"
+            android:layout_height="42dp"
+
+            android:layout_marginStart="89dp"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#30E339"
+            android:text="LOG"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="139dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="26dp"
+            android:text="No of Sets"
+            app:layout_constraintBottom_toTopOf="@+id/bt_addExercise"
+            app:layout_constraintEnd_toStartOf="@+id/et_sets"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/et_reps"
+            android:layout_width="79dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="39dp"
+            android:ems="10"
+            android:hint="e.g. 15"
+            android:digits="0123456789"
+
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/et_sets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="57dp"
+            android:text="Repetions/set"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toStartOf="@+id/et_sets"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_sets"
+            android:layout_width="79dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="19dp"
+            android:ems="10"
+            android:digits="0123456789"
+            android:hint="e.g. 3"
+            android:inputType="number"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/bt_addExercise"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

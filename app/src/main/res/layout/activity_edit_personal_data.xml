@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5900B0FF"
+    tools:context=".EditPersonalDataActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="235dp"
+        android:text="Personal Data"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="33dp"
+        android:text="Age"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
+        android:text="User Name"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_agePersonalData" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="104dp"
+        android:text="Height"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="25dp"
+        android:text="Gender"
+        android:digits="0123456789"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/rgSexPersonalData"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/et_agePersonalData"
+        android:layout_width="57dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="216dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/et_HeightPersonalData"
+        android:layout_width="57dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="235dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="25"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/et_UserNamePersonalData" />
+
+    <EditText
+        android:id="@+id/et_UserNamePersonalData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:digits="0123456789"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_agePersonalData" />
+
+    <RadioGroup
+        android:id="@+id/rgSexPersonalData"
+        android:layout_width="279dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/User_Female_RadioButtonPersonalData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:text="@string/Sex_Female"
+            android:textColor="@drawable/text_color" />
+
+        <RadioButton
+            android:id="@+id/User_Male_RadioButtonPersonalData"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:textAlignment="center"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:text="@string/Sex_Male"
+            android:textColor="@drawable/text_color" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/SavePersonalData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#5700B0FF"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".SignUp_Continue_Activity">
+
+    <TextView
+        android:id="@+id/WeightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="88dp"
+        android:text="Height"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/HeightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="131dp"
+        android:text="Weight"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <NumberPicker
+        android:id="@+id/User_Height_NumberPicker"
+        android:layout_width="63dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="81dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WeightTV" />
+
+    <NumberPicker
+        android:id="@+id/User_Weight_NumberPicker"
+        android:layout_width="63dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="19dp"
+        android:background="@color/transparent"
+        android:backgroundTint="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HeightTV" />
+
+    <Button
+        android:id="@+id/User_SignIn_Button"
+        android:layout_width="90dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="#00E5FF"
+
+        android:text="@string/Next_Button"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Spinner
+        android:id="@+id/ActivityLevelSpinner"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="29dp"
+
+        android:backgroundTint="@color/white"
+        android:entries="@array/array_activity_levels"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/User_Height_NumberPicker"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="102dp"
+        android:text="@string/activity_level"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/User_Weight_NumberPicker" />
+
+    <EditText
+        android:id="@+id/TargetWeightEditText"
+        android:layout_width="87dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="96dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:inputType="number"
+        android:entries="@array/Weekly_goal_array"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/TargetKgSpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TargetWeightTV"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Spinner
+        android:id="@+id/TargetSpinner"
+        android:layout_width="170dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="#FFFFFF"
+        android:dropDownSelector="@color/white"
+        android:entries="@array/Weekly_goal_array"
+        app:layout_constraintBottom_toTopOf="@+id/WeeklyGoalTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityLevelSpinner"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/TargetWeightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="97dp"
+        android:text="Target Weight"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/WeeklyGoalTV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/WeeklyGoalTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="128dp"
+        android:text="@string/Weekly_GoalTV"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TargetSpinner" />
+
+    <Spinner
+        android:id="@+id/TargetKgSpinner"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="8dp"
+
+        android:backgroundTint="#FFFFFF"
+        android:entries="@array/Weekly_kg_array"
+        app:layout_constraintStart_toEndOf="@+id/TargetWeightEditText"
+        app:layout_constraintTop_toBottomOf="@+id/WeeklyGoalTV"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/TVEachWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="184dp"
+        android:text="kg each week"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TargetKgSpinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

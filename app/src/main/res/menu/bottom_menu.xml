@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    app:cnb_unselectedColor="#666666"
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard_"
+        android:title="Dashboard"
+        />
+
+    <item
+        android:id="@+id/diary"
+        android:icon="@drawable/ic__diary"
+        android:title="Diary"
+        />
+
+    <item
+        android:id="@+id/plans"
+        android:icon="@drawable/ic__plans"
+        android:title="Plan"
+        />
+    <item
+        android:id="@+id/exercies"
+        android:icon="@drawable/ic__exercies"
+        android:title="Training"
+        />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more_"
+        android:title="More"
+        />
+
+</menu>

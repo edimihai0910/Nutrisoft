@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/button_color.xml" value="0.2295" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/circle_shape.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/circular_progress_bar.xml" value="0.3155" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/custom_progress_bg.xml" value="0.3155" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/custom_progress_bg2.xml" value="0.3155" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/favorite.xml" value="0.2305" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/gradient.xml" value="0.122" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic__190425961595501135.xml" value="0.183" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic__28255522316297299463941.xml" value="0.183" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic__3402457391579680325.xml" value="0.183" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic__diary.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic__exercies.xml" value="0.183" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic__plans.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_baseline_book_online_24.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_baseline_store_24.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_camera.xml" value="0.183" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_dashboard_.xml" value="0.3075" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_edit.xml" value="0.2295" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_fav1.xml" value="0.1225" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_man_profile_svgrepo_com.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_more_.xml" value="0.183" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ic_search.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/left_arrow.xml" value="0.3155" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/ok_button.xml" value="0.37864583333333335" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/out_line_rb.xml" value="0.3155" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/radio_buton.xml" value="0.229" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/radio_normal.xml" value="0.37864583333333335" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/radio_selected.xml" value="0.37864583333333335" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/radio_selector.xml" value="0.37864583333333335" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/right_arrow.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/round_corners2.xml" value="0.1445" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/text_color.xml" value="0.195" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/toggle_widget_background.xml" value="0.3155" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/drawable/transparent_background.xml" value="0.1355" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13119143239625167" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout-w936dp/activity_login.xml" value="0.153125" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout-w936dp/row_item2.xml" value="0.167578125" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_add_food.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_change_goals.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_choose_item.xml" value="0.23125" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_description_plan.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_diary.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_edit_goals.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_edit_personal_data.xml" value="0.4" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_exercises.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_history.xml" value="0.18697916666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_log_food.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_main.xml" value="0.2572463768115942" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_meal_plans.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_more.xml" value="0.18697916666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_nutrients.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_principle.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_sign_up_continue.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_sign_up_continue_part2.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_splash_screen.xml" value="0.176" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_started_plan.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/activity_test_activityy.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/choose_item_popup.xml" value="0.3625" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_calories.xml" value="0.24912280701754386" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_cardio.xml" value="0.18697916666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_item.xml" value="0.18697916666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_item_list.xml" value="0.17291666666666666" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_nutrients.xml" value="0.1" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_nutrients2.xml" value="0.3625" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_strength.xml" value="0.18697916666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/fragment_tasks.xml" value="0.2234375" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/popupexercise.xml" value="0.264" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/popupexercisestrength.xml" value="0.4" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item.xml" value="0.14010416666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item10.xml" value="0.4" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item2.xml" value="0.1838392475416845" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item3.xml" value="0.17447916666666666" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item4.xml" value="0.22395833333333334" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item5.xml" value="0.22395833333333334" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item6.xml" value="0.22395833333333334" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item7.xml" value="0.18697916666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item8.xml" value="0.18697916666666667" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/layout/row_item9.xml" value="0.3625" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
+        <entry key="..\:/Programare/Android/Licenta/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
